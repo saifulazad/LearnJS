@@ -19,3 +19,27 @@ function normalFunction() {
 let  x = 12
 
 console.log(x);
+
+
+var myApp = function () {
+    
+    var privaye_fun = function () {
+        console.log("privale fun");
+    };
+    
+    
+    return {
+        
+        public_fun : function () {
+                
+                console.log("public fun");
+                privaye_fun();
+        }
+        
+    };
+    
+    
+}();
+
+
+myApp.public_fun();

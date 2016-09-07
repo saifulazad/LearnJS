@@ -22,4 +22,3 @@ var spnGreeting = greetingLanguage('es');
 
 
 engGreeting('Azad');
-spnGreeting('Saarah');

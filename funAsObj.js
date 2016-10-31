@@ -15,5 +15,4 @@ function Obj() {
 }
 
 
-
 console.log(Obj.fullName());
